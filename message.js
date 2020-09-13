@@ -11,6 +11,7 @@ module.exports = (server, options, next) => {
       try {
         let mid = +request.body.mid || 11;
         let uid = request.body.uid || '2';
+        let timestamp = request.body.timestamp;
 
         let data = JSON.parse(fs.readFileSync('./data/data.json', 'utf-8'));
 
