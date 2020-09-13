@@ -89,7 +89,7 @@ module.exports = (server, options, next) => {
             });
 
             item.read = false;
-            ++item.newMsgCount;
+            // ++item.newMsgCount;
           }
           return item;
         });
