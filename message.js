@@ -1,6 +1,8 @@
 const fs = require('fs-extra');
 const { getUserInfoById } = require('./util');
 
+const deductArray = [1, 1, 2, 3, 4, 4, 5, 7, 9, 12];
+
 module.exports = (server, options, next) => {
   server.route({
     method: 'POST',
@@ -13,6 +15,16 @@ module.exports = (server, options, next) => {
         let data = JSON.parse(fs.readFileSync('./data/data.json', 'utf-8'));
 
         if (data.hasOwnProperty(uid)) {
+          data[uid] = data[uid].map((item, index) => {
+            if (item.mid === 11) {
+              return item;
+            }
+
+            item.msg[item.msg.length - 1].date =
+              timestamp - deductArray[index] * 60;
+
+            return item;
+          });
           let msg = data[uid];
           msg = msg.filter((item) => {
             if (item.mid === mid) {
