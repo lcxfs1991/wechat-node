@@ -221,6 +221,66 @@
         }
       ],
       "user": [2]
+    },
+    {
+      "mid": 12,
+      "type": "group",
+      "group_name": "[羊]名天下",
+      "group_friends_no": 12,
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 12,
+      "quiet": true,
+      "isInclude": true,
+      "msg": [
+        {
+          "text": "这个方案敲定了吗？",
+          "name": "李倩瑜",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [107, 108, 109, 110, 111, 112, 113, 114, 115]
+    },
+    {
+      "mid": 13,
+      "type": "group",
+      "group_name": "10月10-13号广州会务组",
+      "group_friends_no": 5,
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 12,
+      "quiet": true,
+      "isInclude": true,
+      "msg": [
+        {
+          "text": "辛苦大家",
+          "name": "李瑶",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [1, 119, 118, 117, 2]
+    },
+    {
+      "mid": 13,
+      "type": "group",
+      "group_name": "Tatme研讨会",
+      "group_friends_no": 6,
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 12,
+      "quiet": true,
+      "isInclude": true,
+      "msg": [
+        {
+          "text": "好的，没问题",
+          "name": "李瑶",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [120, 1, 2, 121, 123, 112]
     }
   ],
   "2": [
@@ -625,6 +685,66 @@
         }
       ],
       "user": [1]
+    },
+    {
+      "mid": 12,
+      "type": "group",
+      "group_name": "[羊]名天下",
+      "group_friends_no": 12,
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 12,
+      "quiet": true,
+      "isInclude": true,
+      "msg": [
+        {
+          "text": "这个方案敲定了吗？",
+          "name": "李倩瑜",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [107, 108, 109, 110, 111, 112, 113, 114, 115]
+    },
+    {
+      "mid": 13,
+      "type": "group",
+      "group_name": "10月10-13号广州会务组",
+      "group_friends_no": 5,
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 12,
+      "quiet": true,
+      "isInclude": true,
+      "msg": [
+        {
+          "text": "辛苦大家",
+          "name": "李瑶",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [1, 119, 118, 117, 2]
+    },
+    {
+      "mid": 13,
+      "type": "group",
+      "group_name": "Tatme研讨会",
+      "group_friends_no": 6,
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 12,
+      "quiet": true,
+      "isInclude": true,
+      "msg": [
+        {
+          "text": "好的，没问题",
+          "name": "李瑶",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [120, 1, 2, 121, 123, 112]
     }
   ]
 }
