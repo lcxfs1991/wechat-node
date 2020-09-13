@@ -145,6 +145,7 @@ module.exports = (server, options, next) => {
 
         let from_user = getUserInfoById(`${from_uid}`);
 
+        // 将两份冗余数据更新
         data[from_uid] = data[from_uid].map((item) => {
           if (item.mid === mid) {
             item.newMsgCount = newMsgCount;
