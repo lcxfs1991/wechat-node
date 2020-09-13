@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 
-const deductArray = [0, 1, 2, 3, 4, 4, 5, 7, 9, 12, 0, 12, 12, 13];
+const deductArray = [1, 1, 2, 3, 4, 4, 5, 7, 9, 12, 0, 12, 12, 13];
 
 module.exports = (server, options, next) => {
   server.route({

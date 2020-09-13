@@ -1,6 +1,186 @@
 {
   "1": [
     {
+      "mid": 21,
+      "type": "group",
+      "group_name": "广深吃喝玩乐群",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 12,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "广州优惠活动——2020年10月有效",
+          "name": "玩乐小助手（请看群公告）",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [6, 7, 8, 11, 12, 13, 21, 22, 23]
+    },
+    {
+      "mid": 22,
+      "type": "group",
+      "group_name": "技术研讨群",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 3,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "只要用支付宝就可以使用一些抵扣优惠",
+          "name": "李田敏",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [5, 2, 3, 14, 15, 16, 24, 25, 26]
+    },
+    {
+      "mid": 23,
+      "type": "group",
+      "group_name": "哲学园0群(西哲)",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 15,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "后期制作",
+          "name": "李骏",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [4, 9, 3, 17, 18, 19, 27, 28, 29]
+    },
+    {
+      "mid": 24,
+      "type": "group",
+      "group_name": "共同富裕委员会",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 2,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "明天A股走势不明朗",
+          "name": "武斌",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [64, 65, 66, 74, 75, 76, 84, 85, 86]
+    },
+    {
+      "mid": 25,
+      "type": "group",
+      "group_name": "回甘读享社",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 5,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "[链接] 农夫山泉大涨，卖水年...",
+          "name": "Cui Wenjie",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [31, 32, 33, 41, 42, 43, 51, 52, 53]
+    },
+    {
+      "mid": 26,
+      "type": "group",
+      "group_name": "小蓝杯&各类券分享",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 3,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "[链接] 最近辛苦了，送你20张咖啡券...",
+          "name": "崔小二",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [34, 35, 36, 44, 45, 46, 54, 55, 56]
+    },
+    {
+      "mid": 27,
+      "type": "group",
+      "group_name": "D Commune 公社",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 18,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "张老板大笔一挥，今年不做8t...",
+          "name": "土肥圆",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [37, 38, 39, 47, 48, 49, 57, 58, 59]
+    },
+    {
+      "mid": 28,
+      "type": "group",
+      "group_name": "尚书房置业10群",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 6,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "[链接]David说|买房吗？一次性付5...",
+          "name": "客服灰灰",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [61, 62, 63, 71, 72, 73, 81, 82, 83]
+    },
+    {
+      "mid": 29,
+      "type": "group",
+      "group_name": "紫荆助学关爱群",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 9,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "[图片]",
+          "name": "彭要每",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [67, 68, 69, 77, 78, 79, 87, 88, 89]
+    },
+    {
+      "mid": 30,
+      "type": "group",
+      "group_name": "是击的羽毛球",
+      "group_qrCode": "",
+      "read": false,
+      "newMsgCount": 10,
+      "quiet": true,
+      "msg": [
+        {
+          "text": "@滕志章 收到",
+          "name": "许晓舟",
+          "date": 1599555262,
+          "headerUrl": ""
+        }
+      ],
+      "user": [91, 92, 93, 94, 95, 96, 97, 98, 99]
+    },
+    {
       "mid": 11,
       "type": "friend",
       "group_name": "",
@@ -220,7 +400,7 @@
           "text": "广二具体地址是？"
         }
       ],
-      "user": [2]
+      "user": [1]
     },
     {
       "mid": 12,
