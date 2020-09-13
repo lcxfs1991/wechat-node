@@ -89,6 +89,7 @@ module.exports = (server, options, next) => {
             });
 
             item.read = false;
+            // 不需要给自己这边的新消息+1
             // ++item.newMsgCount;
           }
           return item;
@@ -154,13 +155,13 @@ module.exports = (server, options, next) => {
           return item;
         });
 
-        data[to_uid] = data[to_uid].map((item) => {
-          if (item.mid === mid) {
-            item.newMsgCount = newMsgCount;
-            item.read = read;
-          }
-          return item;
-        });
+        // data[to_uid] = data[to_uid].map((item) => {
+        //   if (item.mid === mid) {
+        //     item.newMsgCount = newMsgCount;
+        //     item.read = read;
+        //   }
+        //   return item;
+        // });
 
         fs.writeFileSync('./data/data.json', JSON.stringify(data, null, 4));
 
