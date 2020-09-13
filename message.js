@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const { getUserInfoById } = require('./util');
 
-const deductArray = [1, 1, 2, 3, 4, 4, 5, 7, 9, 12];
+const deductArray = [1, 1, 2, 3, 4, 4, 5, 7, 9, 12, 0, 12, 12, 13];
 
 module.exports = (server, options, next) => {
   server.route({
